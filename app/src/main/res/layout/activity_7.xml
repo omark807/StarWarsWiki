@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/homeimage">
+
+    <Button
+        android:id="@+id/buttonuranus"
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="Uranus" />
+
+    <Button
+        android:id="@+id/buttonsaturn"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="66dp"
+        android:text="Saturn" />
+
+    <Button
+        android:id="@+id/buttonmercury"
+        android:layout_width="match_parent"
+        android:layout_height="101dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Mercury" />
+
+    <Button
+        android:id="@+id/buttonvenus"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="88dp"
+        android:text="Venus" />
+
+    <Button
+        android:id="@+id/buttonearth"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="149dp"
+        android:text="Earth" />
+
+    <Button
+        android:id="@+id/buttonmars"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:text="Mars" />
+
+    <Button
+        android:id="@+id/buttonjupiter"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="149dp"
+        android:text="Jupiter" />
+
+    <Button
+        android:id="@+id/buttoneadu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/buttonmercury"
+        android:text="Neptune" />
+
+</RelativeLayout>

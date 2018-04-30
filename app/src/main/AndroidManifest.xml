@@ -2,10 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="mp7.starwarswiki">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="NASA Wiki"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -20,7 +22,29 @@
         <activity android:name=".Activity3" />
         <activity android:name=".Activity4" />
         <activity android:name=".Activity5" />
-        <activity android:name=".Activity6"></activity>
+        <activity android:name=".Activity6" />
+        <activity android:name=".Activity7" />
+        <activity android:name=".Activity8" />
+        <activity android:name=".Activity9" />
+        <activity android:name=".Activity10" />
+        <activity android:name=".Activity11" />
+        <activity android:name=".ActivityJakku" />
+        <activity android:name=".ActivityJedha" />
+        <activity android:name=".ActivityEadu" />
+        <activity android:name=".ActivityMustafar" />
+        <activity
+            android:name=".ActivityAquarius"
+            android:label="@string/title_activity_aquarius"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ActivityAquila" />
+        <activity android:name=".ActivityAries" />
+        <activity android:name=".ActivityCancer" />
+        <activity android:name=".ActivityCapricorn" />
+        <activity android:name=".ActivityGemini" />
+        <activity android:name=".ActivityLeo" />
+        <activity android:name=".ActivityOrion" />
+        <activity android:name=".ActivityUrsaMajor" />
+        <activity android:name=".ActivityUrsaMinor"></activity>
     </application>
 
 </manifest>

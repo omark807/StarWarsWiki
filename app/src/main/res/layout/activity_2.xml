@@ -6,19 +6,86 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="Insert Anakin Info here" />
 
-    <RatingBar
-        android:id="@+id/ratingBar3"
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/button_aquarius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="19dp"
+        android:text="Aquarius" />
+
+    <Button
+        android:id="@+id/button_aquila"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_aries"
+        android:layout_alignParentStart="true"
+        android:text="Aquila" />
+
+    <Button
+        android:id="@+id/button_aries"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_cancer"
+        android:layout_alignParentStart="true"
+        android:text="Aries" />
+
+    <Button
+        android:id="@+id/button_cancer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_capricorn"
+        android:layout_alignParentStart="true"
+        android:text="Cancer" />
+
+    <Button
+        android:id="@+id/button_capricorn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:text="Capricorn" />
+
+    <Button
+        android:id="@+id/button_gemini"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_Leo"
+        android:layout_alignParentStart="true"
+        android:text="Gemini" />
+
+    <Button
+        android:id="@+id/button_Leo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_orion"
+        android:layout_alignParentStart="true"
+        android:text="Leo" />
+
+    <Button
+        android:id="@+id/button_orion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_ursamajor"
+        android:layout_alignParentStart="true"
+        android:text="Orion" />
+
+    <Button
+        android:id="@+id/button_ursamajor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_ursaminor"
+        android:layout_alignParentStart="true"
+        android:text="Ursa Majoe" />
+
+    <Button
+        android:id="@+id/button_ursaminor"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
-
+        android:layout_alignParentStart="true"
+        android:text="Ursa Minor" />
 
 </RelativeLayout>
