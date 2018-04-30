@@ -13,7 +13,6 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
     private Button button1;
     private Button button2;
-    private Button button3;
     private Button button4;
     private Button button5;
     private Button buttonPlanets;
@@ -32,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
 
         button1 = (Button) findViewById(R.id.button1);
         button2 = (Button) findViewById(R.id.button2);
-        button3 = (Button) findViewById(R.id.button3);
         button4 = (Button) findViewById(R.id.button4);
         button5 = (Button) findViewById(R.id.button5);
         buttonPlanets = (Button) findViewById(R.id.buttonplanets);
@@ -50,13 +48,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 openActivity3();
-            }
-        });
-
-        button3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openActivity4();
             }
         });
 
@@ -92,11 +83,6 @@ public class MainActivity extends AppCompatActivity {
         public void openActivity3() {
             Intent intent2 = new Intent(this, Activity3.class);
             startActivity(intent2);
-        }
-
-        public void openActivity4() {
-        Intent intent3 = new Intent(this, Activity4.class);
-        startActivity(intent3);
         }
 
         public void openActivity5() {

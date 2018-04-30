@@ -3,11 +3,11 @@ package mp7.starwarswiki;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class ActivityOrion extends AppCompatActivity {
+public class ActivitySegue extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_orion);
+        setContentView(R.layout.activity_segue);
     }
 }

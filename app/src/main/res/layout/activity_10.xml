@@ -9,9 +9,11 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="Insert Coruscant info here" />
+        android:layout_marginBottom="191dp"
+        android:text="Earth, our wonderful home, is the third closest planet to the Sun, and is the only planet in the solar system to be primarily composed of water."
+        android:textColor="@android:color/black" />
 
     <RatingBar
         android:id="@+id/ratingBar"
@@ -19,6 +21,15 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="248dp"
+        android:layout_height="241dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        app:srcCompat="@drawable/planetearth" />
 
 
 </RelativeLayout>

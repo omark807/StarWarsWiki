@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@drawable/mainstarlogo">
+    android:background="@drawable/nasamain">
 
     <Button
         android:layout_width="match_parent"
@@ -23,7 +23,7 @@
     <Button
         android:id="@+id/buttonplanets"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="119dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="0dp"
@@ -32,37 +32,28 @@
     <Button
         android:id="@+id/button1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="110dp"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="55dp"
+        android:layout_below="@+id/buttonplanets"
         android:text="Constellations" />
 
     <Button
         android:id="@+id/button5"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="0dp"
-        android:text="Yoda" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="97dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="93dp"
-        android:text="Princess Leia" />
+        android:text="Miscellanous Space Terms" />
+
 
     <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="112dp"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/button1"
-        android:text="Luke Skywalker" />
+        android:layout_marginBottom="89dp"
+        android:text="Galaxies Near Us" />
 
 
 </RelativeLayout>

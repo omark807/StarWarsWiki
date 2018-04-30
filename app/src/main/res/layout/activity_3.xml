@@ -6,19 +6,30 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+
+    <Button
+        android:id="@+id/buttonsegue"
+        android:layout_width="match_parent"
+        android:layout_height="134dp"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="Insert Luke info here" />
+        android:text="Segue I" />
 
-    <RatingBar
-        android:id="@+id/ratingBar4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+    <Button
+        android:id="@+id/buttonSDS"
+        android:layout_width="match_parent"
+        android:layout_height="177dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="134dp"
+        android:text="Button" />
 
-
+    <Button
+        android:id="@+id/buttonhercules"
+        android:layout_width="match_parent"
+        android:layout_height="198dp"
+        android:layout_below="@+id/buttonSDS"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:text="Hercules" />
 </RelativeLayout>

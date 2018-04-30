@@ -6,19 +6,37 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="Insert Yoda info here" />
 
-    <RatingBar
-        android:id="@+id/ratingBar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <Button
+        android:id="@+id/buttoncomet"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/buttoncomet"
+        android:text="Comet" />
+
+    <Button
+        android:id="@+id/button_quasar"
+        android:layout_width="match_parent"
+        android:layout_height="122dp"
+        android:layout_above="@+id/button_supernova"
+        android:layout_alignParentStart="true"
+        android:text="Quasar" />
+
+    <Button
+        android:id="@+id/button_supernova"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentStart="true"
+        android:text="Supernova" />
 
-
+    <Button
+        android:id="@+id/button_nebula"
+        android:layout_width="match_parent"
+        android:layout_height="158dp"
+        android:layout_above="@+id/button_quasar"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="-12dp"
+        android:text="Nebula" />
 </RelativeLayout>

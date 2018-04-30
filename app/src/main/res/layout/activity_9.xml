@@ -8,10 +8,12 @@
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="51dp"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="Insert Naboo info here" />
+        android:layout_marginBottom="166dp"
+        android:text="Venus is the second closest planet to the Sun."
+        android:textColor="@android:color/black" />
 
     <RatingBar
         android:id="@+id/ratingBar"
@@ -19,6 +21,15 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="344dp"
+        android:layout_height="235dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        app:srcCompat="@drawable/planetvenus" />
 
 
 </RelativeLayout>

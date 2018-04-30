@@ -20,13 +20,9 @@ import java.net.URL;
 public class Activity2 extends AppCompatActivity {
 
     private Button buttonAquarius;
-    private Button buttonAquila;
-    private Button buttonAries;
     private Button buttonCancer;
     private Button buttonCapricorn;
-    private Button buttonGemini;
     private Button buttonLeo;
-    private Button buttonOrion;
     private Button buttonUrsaMajor;
     private Button buttonUrsaMinor;
 
@@ -37,13 +33,9 @@ public class Activity2 extends AppCompatActivity {
         setContentView(R.layout.activity_2);
 
         buttonAquarius = (Button) findViewById(R.id.button_aquarius);
-        buttonAquila = (Button) findViewById(R.id.button_aquila);
-        buttonAries = (Button) findViewById(R.id.button_aries);
         buttonCancer = (Button) findViewById(R.id.button_cancer);
         buttonCapricorn = (Button) findViewById(R.id.button_capricorn);
-        buttonGemini = (Button) findViewById(R.id.button_gemini);
         buttonLeo = (Button) findViewById(R.id.button_Leo);
-        buttonOrion = (Button) findViewById(R.id.button_orion);
         buttonUrsaMajor = (Button) findViewById(R.id.button_ursamajor);
         buttonUrsaMinor = (Button) findViewById(R.id.button_ursaminor);
 
@@ -51,20 +43,6 @@ public class Activity2 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 openActivityAquarius();
-            }
-        });
-
-        buttonAquila.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openActivityAquila();
-            }
-        });
-
-        buttonAries.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openActivityAries();
             }
         });
 
@@ -82,24 +60,10 @@ public class Activity2 extends AppCompatActivity {
             }
         });
 
-        buttonGemini.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openActivityGemini();
-            }
-        });
-
         buttonLeo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openActivityLeo();
-            }
-        });
-
-        buttonOrion.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openActivityOrion();
             }
         });
 
@@ -123,18 +87,6 @@ public class Activity2 extends AppCompatActivity {
             startActivity(aquariusIntent);
         }
 
-        public void openActivityAquila() {
-        Intent aquilaIntent = new Intent(this, ActivityAquila.class);
-        startActivity(aquilaIntent);
-
-        }
-
-        public void openActivityAries() {
-        Intent ariesIntent = new Intent(this, ActivityAries.class);
-        startActivity(ariesIntent);
-
-        }
-
         public void openActivityCancer() {
         Intent cancerIntent = new Intent(this, ActivityCancer.class);
         startActivity(cancerIntent);
@@ -147,21 +99,9 @@ public class Activity2 extends AppCompatActivity {
 
         }
 
-        public void openActivityGemini() {
-        Intent geminiIntent = new Intent(this, ActivityGemini.class);
-        startActivity(geminiIntent);
-
-        }
-
         public void openActivityLeo() {
         Intent leoIntent = new Intent(this, ActivityLeo.class);
         startActivity(leoIntent);
-
-        }
-
-        public void openActivityOrion() {
-        Intent orionIntent = new Intent(this, ActivityOrion.class);
-        startActivity(orionIntent);
 
         }
 
