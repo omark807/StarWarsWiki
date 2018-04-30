@@ -8,11 +8,10 @@
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="120dp"
-        android:layout_alignParentBottom="true"
+        android:layout_height="175dp"
+        android:layout_above="@+id/ratingBar"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="123dp"
-        android:text="Mercury is known as the closest planet to the Sun, with temperatures close to 900 degrees Fahrenheit at the surface."
+        android:text="The smallest planet in our solar system and nearest to the Sun, Mercury is only slightly larger than Earth's moon. From the surface of Mercury, the Sun would appear more than three times as large as it does when viewed from Earth, and the sunlight would be as much as 11 times brighter.  Despite its proximity to the Sun, Mercury is not the hottest planet in our solar system—that title belongs to nearby Venus—but it is the fastest, zipping around the Sun every 88 Earth days."
         android:textColor="@android:color/black" />
 
     <RatingBar
