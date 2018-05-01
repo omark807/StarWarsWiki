@@ -10,7 +10,7 @@
     <Button
         android:id="@+id/buttoncomet"
         android:layout_width="match_parent"
-        android:layout_height="115dp"
+        android:layout_height="210dp"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/buttoncomet"
         android:text="Comet" />
@@ -18,9 +18,10 @@
     <Button
         android:id="@+id/button_quasar"
         android:layout_width="match_parent"
-        android:layout_height="122dp"
+        android:layout_height="137dp"
         android:layout_above="@+id/button_supernova"
         android:layout_alignParentStart="true"
+        android:layout_marginBottom="-15dp"
         android:text="Quasar" />
 
     <Button

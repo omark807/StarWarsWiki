@@ -10,26 +10,25 @@
     <Button
         android:id="@+id/buttonsegue"
         android:layout_width="match_parent"
-        android:layout_height="134dp"
+        android:layout_height="163dp"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
         android:text="Segue I" />
 
     <Button
         android:id="@+id/buttonSDS"
         android:layout_width="match_parent"
-        android:layout_height="177dp"
+        android:layout_height="255dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="134dp"
+        android:layout_marginTop="100dp"
         android:text="Sagittarius Dwarf Spheroidal" />
 
     <Button
         android:id="@+id/buttonhercules"
         android:layout_width="match_parent"
-        android:layout_height="198dp"
-        android:layout_below="@+id/buttonSDS"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="2dp"
+        android:layout_height="255dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
         android:text="Hercules" />
 </RelativeLayout>

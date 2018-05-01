@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/darkblue"
     tools:context=".MainActivity">
 
     <TextView
@@ -14,7 +15,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="89dp"
         android:text="Segue 1 is a dwarf spheroidal galaxy located within the Leo constellation, and it was discovered in 2006. It is located roughly 23 npc from the Sun. and moves away from it at a velocity of about 206 km/s. It is noticeably elongated, most likely due to the forces acting on it by the Milky Way."
-        android:textColor="@android:color/black" />
+        android:textColor="@android:color/white" />
 
     <ImageView
         android:id="@+id/imageView15"

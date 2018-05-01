@@ -10,7 +10,7 @@
     <Button
         android:id="@+id/button_aquarius"
         android:layout_width="match_parent"
-        android:layout_height="108dp"
+        android:layout_height="182dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:text="Aquarius" />
@@ -18,39 +18,43 @@
     <Button
         android:id="@+id/button_cancer"
         android:layout_width="match_parent"
-        android:layout_height="91dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_capricorn"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/button_aquarius"
+        android:layout_marginBottom="-47dp"
         android:text="Cancer" />
 
     <Button
         android:id="@+id/button_capricorn"
         android:layout_width="match_parent"
-        android:layout_height="91dp"
+        android:layout_height="144dp"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/button_cancer"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="160dp"
         android:text="Capricorn" />
 
     <Button
         android:id="@+id/button_Leo"
         android:layout_width="match_parent"
-        android:layout_height="82dp"
+        android:layout_height="128dp"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/button_capricorn"
+        android:layout_marginBottom="192dp"
         android:text="Leo" />
 
     <Button
         android:id="@+id/button_ursamajor"
         android:layout_width="match_parent"
-        android:layout_height="69dp"
+        android:layout_height="147dp"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/button_Leo"
+        android:layout_marginBottom="60dp"
         android:text="Ursa Majoe" />
 
     <Button
         android:id="@+id/button_ursaminor"
         android:layout_width="match_parent"
-        android:layout_height="72dp"
+        android:layout_height="80dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
         android:text="Ursa Minor" />

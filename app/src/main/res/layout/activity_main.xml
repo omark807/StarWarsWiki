@@ -23,7 +23,7 @@
     <Button
         android:id="@+id/buttonplanets"
         android:layout_width="match_parent"
-        android:layout_height="119dp"
+        android:layout_height="111dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="0dp"
@@ -32,9 +32,10 @@
     <Button
         android:id="@+id/button1"
         android:layout_width="match_parent"
-        android:layout_height="110dp"
+        android:layout_height="121dp"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/buttonplanets"
+        android:layout_marginTop="-11dp"
         android:text="Constellations" />
 
     <Button
@@ -49,10 +50,10 @@
     <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
-        android:layout_height="112dp"
+        android:layout_height="123dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="89dp"
+        android:layout_marginBottom="78dp"
         android:text="Galaxies Near Us" />
 
 
