@@ -8,14 +8,13 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
+        android:layout_width="334dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="143dp"
-        android:text="TextView"
-        android:textColor="@android:color/black"
-        tools:text="Ursa Minor is a little bear.blac" />
+        android:layout_marginBottom="43dp"
+        android:text='Ursa Minor, also known as the “Little Bear,” is a constellation that is commonly found in the northern sky. Its name in Latin can be translated to “lesser she-bear,” which is directly related to its counterpart Ursa Major, which is translated as “greater bear.” Its brightest star, Polaris, is valued highly by mariners as a means of guidance during travel. It also forms the “Little Dipper,” which is in direct relation to the “Big Dipper."'
+        android:textColor="@android:color/black" />
 
     <ImageView
         android:id="@+id/imageView12"
@@ -25,5 +24,12 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="12dp"
         app:srcCompat="@drawable/majorthree" />
+
+    <RatingBar
+        android:id="@+id/ratingBar6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

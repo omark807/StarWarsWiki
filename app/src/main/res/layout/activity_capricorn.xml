@@ -8,21 +8,28 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="321dp"
+        android:layout_height="160dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="157dp"
-        android:text="Capricorn looks neat."
+        android:layout_marginBottom="57dp"
+        android:text='Capricorn is another one of the constellations of the zodiac. Its name in Latin can be translated to "horned goat" and it is commonly represented as one. It is known as one of the 88 modern constellations, and it is bordered by Aquila, Sagittarius, and Pisces. It is located in an area known as the Sea of the Water, an area where many sea-related constellations can be found, such as Aquarius.'
         android:textColor="@android:color/black" />
 
     <ImageView
         android:id="@+id/imageView10"
-        android:layout_width="282dp"
+        android:layout_width="346dp"
         android:layout_height="260dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="18dp"
         app:srcCompat="@drawable/conscapricorn" />
+
+    <RatingBar
+        android:id="@+id/ratingBar4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

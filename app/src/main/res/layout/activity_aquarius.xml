@@ -9,11 +9,11 @@
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="146dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="189dp"
-        android:text="Aquarius is shaped like an object."
+        android:layout_marginBottom="61dp"
+        android:text="Aquarius is a constellation of the zodiac, situated between Capricorn and Pisces. Its name is Latin for &quot;water-carrier&quot; or &quot;cup-carrier.&quot; Aquarius is one of the oldest of the recognized constellations along thezodiac (the Sun's apparent path). It was one of the 48 constellations listed by the 2nd century astronomer Ptolemy, and it remains one of the 88 modern constellations. It is found in a region often called the Sea due to its profusion of constellations. "
         android:textColor="@android:color/black" />
 
     <ImageView
@@ -24,5 +24,12 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="22dp"
         app:srcCompat="@drawable/consaquarius" />
+
+    <RatingBar
+        android:id="@+id/ratingBar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

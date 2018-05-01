@@ -8,12 +8,12 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="352dp"
+        android:layout_height="185dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="159dp"
-        android:text="Ursa Major is a big bear."
+        android:layout_marginBottom="41dp"
+        android:text="Ursa Major, also known as the “Great Bear,” is a constellation that is commonly found in the northern sky. Its name in Latin can be translated to “greater she-bear,” which is directly related to its counterpart Ursa Minor, which is translated as “lesser bear.” Its brightest stars are known to represent the infamous “Big Dipper,” It is visible most parts of the year in the northern hemisphere, with only the southern parts of the constellation being visible in the southern hemisphere."
         android:textColor="@android:color/black" />
 
     <ImageView
@@ -25,5 +25,12 @@
         android:layout_marginEnd="0dp"
         android:layout_marginTop="18dp"
         app:srcCompat="@drawable/majorthree" />
+
+    <RatingBar
+        android:id="@+id/ratingBar7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
