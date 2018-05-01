@@ -8,19 +8,27 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="333dp"
+        android:layout_height="147dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="134dp"
-        android:text="TextView" />
+        android:layout_marginBottom="70dp"
+        android:text="The Sagittarius Dwarf Spheroidal Galaxy, also known as the Sagittarius Dwarf Elliptical Galaxy (SDE), is a loop-shaped galaxy of the Milky Way. It is comprised of four globular clusters, with its main cluster having been discovered in 1994. It is located 70,000 lightyears away from Earth, and 50,000 lightyears away from the core of the Milky Way. "
+        android:textColor="@android:color/black" />
 
     <ImageView
         android:id="@+id/imageView16"
-        android:layout_width="314dp"
-        android:layout_height="359dp"
+        android:layout_width="346dp"
+        android:layout_height="317dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         app:srcCompat="@drawable/galsds" />
+
+    <RatingBar
+        android:id="@+id/ratingBar9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

@@ -8,17 +8,18 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="336dp"
+        android:layout_height="93dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="134dp"
-        android:text="TextView" />
+        android:layout_marginBottom="57dp"
+        android:text="A supernova is a cataclysmic explosion caused when a star exhausts its fuel and ends its life.  Supernovae are the most powerful forces in the universe. All of the heavy elements were created in supernova explosions."
+        android:textColor="@android:color/black" />
 
     <ImageView
         android:id="@+id/imageView20"
-        android:layout_width="295dp"
-        android:layout_height="336dp"
+        android:layout_width="340dp"
+        android:layout_height="370dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         app:srcCompat="@drawable/supernovapic" />

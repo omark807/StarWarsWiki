@@ -8,12 +8,12 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="350dp"
+        android:layout_height="178dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="154dp"
-        android:text="Hercules goodies."
+        android:layout_marginBottom="72dp"
+        android:text="3C 346 is a supergiant elliptical galaxy, which contains the astronomical radio source Hercules A, as pictured above. It can be seen in the center of the image, appearing to be a relatively normal elliptical galaxy, however when subject to radio wave analysis, it appears with the effects seen in the above image. It is approximately 1,000 times larger than our Milky Way, and its central black hole is roughly 1,000 times larger than our galaxy’s central black hole."
         android:textColor="@android:color/black" />
 
     <ImageView
@@ -24,5 +24,12 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="5dp"
         app:srcCompat="@drawable/galhercules" />
+
+    <RatingBar
+        android:id="@+id/ratingBar10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

@@ -8,19 +8,21 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="344dp"
+        android:layout_height="131dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="164dp"
-        android:text="TextView" />
+        android:layout_marginBottom="51dp"
+        android:text="A gigantic ball of ice and rock that orbit the Sun in a highly eccentric orbit. Some comets have an orbit that brings them close to the Sun where they form a long tail of gas and dust as they are heated by the Sun's rays."
+        android:textColor="@android:color/black" />
 
     <ImageView
         android:id="@+id/imageView17"
         android:layout_width="288dp"
-        android:layout_height="329dp"
+        android:layout_height="292dp"
         android:layout_above="@+id/textView"
         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="37dp"
         app:srcCompat="@drawable/cometpic" />
 
 </RelativeLayout>
