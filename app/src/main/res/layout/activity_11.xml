@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/blue"
     tools:context=".MainActivity">
 
     <TextView
@@ -13,7 +14,7 @@
         android:layout_alignParentStart="true"
         android:layout_marginBottom="-57dp"
         android:text="Mars is a dynamic world that additionally has seasons, polar ice caps, volcanoes, canyons and weather. Mars’ similarities to Earth—and stark differences—make it a prime target for exploration. An international science fleet keeps constant watch on this world and two robotic rovers are operating on the surface—sending back a steady stream of science data and images. Scientists found eight places where subsurface ice, likely deposited long ago in the form of snow, has been revealed on steep slopes.  These deposits, made of relatively pure water ice, hold clues about Mars' climate history. They also may make frozen water more accessible than previously thought to future robotic or human exploration missions. "
-        android:textColor="@android:color/black" />
+        android:textColor="@android:color/white" />
 
     <RatingBar
         android:id="@+id/ratingBar"

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:background="@drawable/black">
 
     <TextView
         android:id="@+id/textView"
@@ -14,7 +14,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="51dp"
         android:text="A gigantic ball of ice and rock that orbit the Sun in a highly eccentric orbit. Some comets have an orbit that brings them close to the Sun where they form a long tail of gas and dust as they are heated by the Sun's rays."
-        android:textColor="@android:color/black" />
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
 
     <ImageView
         android:id="@+id/imageView17"

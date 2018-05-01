@@ -4,21 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/blue"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="326dp"
+        android:layout_width="355dp"
         android:layout_height="160dp"
         android:layout_below="@+id/imageView11"
         android:layout_centerHorizontal="true"
         android:text="Leo is also another one of the constellations of the zodiac, lying between Cancer to the west, and Virgo to the east. In Latin, its name can be translated to “lion.” It remains one of the 88 modern constellations, and it is very easy to spot due to the many bright stars it possesses, as well as the shape of the crouching lion it depicts. Its mane and shoulders are known as “The Sickle,” which can be identified as a backwards question mark."
-        android:textColor="@android:color/black" />
+        android:textColor="@android:color/white" />
 
     <ImageView
         android:id="@+id/imageView11"
         android:layout_width="251dp"
-        android:layout_height="302dp"
+        android:layout_height="266dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         app:srcCompat="@drawable/consleo" />

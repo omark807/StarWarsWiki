@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/blue"
     tools:context=".MainActivity">
 
     <TextView
@@ -14,7 +15,7 @@
         android:layout_alignParentStart="true"
         android:layout_marginBottom="55dp"
         android:text="Cancer is one of the twelve constellations of the zodiac. Its name is Latin for crab and it is commonly represented as one. Cancer is a medium-size constellation with an area of 506 square degrees and its stars are rather faint, its brightest star Beta Cancri having an magnitude of 3.5. It contains two stars with known planets, including 55 Cancri, which has five: one super-earth and four gas giants one of which is in the habitable zone and as such has expected temperatures similar to Earth."
-        android:textColor="@android:color/black" />
+        android:textColor="@android:color/white" />
 
     <ImageView
         android:id="@+id/imageView9"

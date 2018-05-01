@@ -4,22 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:background="@drawable/black">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="343dp"
-        android:layout_height="84dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="68dp"
+        android:layout_marginBottom="20dp"
         android:text="A cloud of dust and gas in space, usually illuminated by one or more stars. Nebulae represent the raw material the stars are made of, rather than being a reference to the actual star itself. it does not serve as a synonym for an individual star, or even a cluster of stars."
-        android:textColor="@android:color/black" />
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
 
     <ImageView
         android:id="@+id/imageView19"
         android:layout_width="351dp"
-        android:layout_height="330dp"
+        android:layout_height="304dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="21dp"

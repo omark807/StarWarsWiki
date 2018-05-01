@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/black">
 
     <TextView
         android:id="@+id/textView"
@@ -13,7 +14,8 @@
         android:layout_alignParentEnd="true"
         android:layout_below="@+id/imageView18"
         android:text="An unusually bright object found in the remote areas of the universe. Quasars release incredible amounts of energy and are among the oldest and farthest objects in the known universe. They may be the nuclei of ancient, active galaxies."
-        android:textColor="@android:color/black" />
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
 
     <ImageView
         android:id="@+id/imageView18"
